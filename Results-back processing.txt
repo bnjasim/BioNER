@@ -1,0 +1,127 @@
+Joint Workshop on. Natural Language Processing in Biomedicine and its Applications
+
+//Without using sequential features - Forward processing
+
+original count of protein = 9840
+correct count = 6589
+inferred = 13660
+original count of DNA = 2845
+correct count = 1072
+inferred = 2873
+original count of RNA = 305
+correct count = 83
+inferred = 141
+original count of Cell = 6386
+correct count = 2654
+inferred = 4966
+Evaluation Statistics
+
+Entity      Precision   Recall      F factor    
+Protein       0.482357    0.669614    0.560765    
+DNA           0.373129    0.376801    0.374956    
+RNA           0.588652    0.272131    0.372197    
+Cell          0.534434    0.415597    0.467582    
+Total         0.480499    0.536643    0.507022    
+
+
+// After Back Processing
+
+original count of protein = 9840
+correct count = 7496
+inferred = 15548
+original count of DNA = 2845
+correct count = 1538
+inferred = 2907
+original count of RNA = 305
+correct count = 108
+inferred = 168
+original count of Cell = 6386
+correct count = 3351
+inferred = 5124
+Evaluation Statistics
+
+Entity      Precision   Recall      F factor    
+Protein       0.482120    0.761789    0.590515    
+DNA           0.529068    0.540598    0.534770    
+RNA           0.642857    0.354098    0.456659    
+Cell          0.653981    0.524742    0.582276    
+Total         0.526088    0.644767    0.579437    
+
+// After Back processing and Rule based correction
+
+original count of protein = 9840
+correct count = 7629
+inferred = 16303
+original count of DNA = 2845
+correct count = 1599
+inferred = 3046
+original count of RNA = 305
+correct count = 110
+inferred = 170
+original count of Cell = 6386
+correct count = 3469
+inferred = 5355
+
+Evaluation Statistics
+
+Entity      Precision   Recall      F factor    
+Protein       0.467951    0.775305    0.583636    
+DNA           0.524951    0.562039    0.542861    
+RNA           0.647059    0.360656    0.463157    
+Cell          0.647806    0.543220    0.590920    
+Total         0.514875    0.660972    0.578847    
+
+
+
+
+
+// After post processing -final
+original count of protein = 9840
+correct count = 7516
+inferred = 15693
+original count of DNA = 2845
+correct count = 1588
+inferred = 3005
+original count of RNA = 305
+correct count = 108
+inferred = 168
+original count of Cell = 6386
+correct count = 3508
+inferred = 5424
+Evaluation Statistics
+
+Entity      Precision   Recall      F factor    
+Protein       0.478940    0.763821    0.588728    
+DNA           0.528453    0.558172    0.542905    
+RNA           0.642857    0.354098    0.456659    
+Cell          0.646755    0.549327    0.594072    
+Total         0.523672    0.656482    0.582604    
+Recognition   0.613298    0.768838    0.682316   
+
+
+
+
+run:
+original count of protein = 9840
+correct count = 7516
+inferred = 15693
+original count of DNA = 2845
+correct count = 1588
+inferred = 3005
+original count of RNA = 305
+correct count = 108
+inferred = 168
+original count of Cell = 6386
+correct count = 3508
+inferred = 5424
+Evaluation Statistics
+
+Entity      Precision   Recall      F factor    
+Protein       0.478940    0.763821    0.588728    
+DNA           0.528453    0.558172    0.542905    
+RNA           0.642857    0.354098    0.456659    
+Cell          0.646755    0.549327    0.594072    
+Total         0.523672    0.656482    0.582604    
+Recognition   0.613298    0.768838    0.682316    
+
+Precision of boundary detection = 0.397247157390784

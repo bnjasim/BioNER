@@ -1,0 +1,7 @@
+kappa B-protein
+B I-protein
+protein I-protein
+. O
+
+
+
