@@ -7,4 +7,4 @@ Done as part of our B.Tech Final Year project.
 
 #### GUI
 
-![screen shot](screen shot.png)
+![screen shot](screen_shot.png)
